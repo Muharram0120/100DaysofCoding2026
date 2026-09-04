@@ -9,9 +9,6 @@ public class Muharram{
     // \" menampilkan tanda kutip //
     System.out.println("\"halo\"");
 
-    // \' menampilkan tanda petik //
-    System.out.println("\'A\'");
-
     // \\ menampilkan backslash (\) //
     System.out.println("C:\\Java\\Project");
 
