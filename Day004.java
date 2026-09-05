@@ -1,4 +1,4 @@
-public class Muharram{
+public class Day004{
   public static void main(String[] args){
     byte a = 127;
     short b = 32767;
