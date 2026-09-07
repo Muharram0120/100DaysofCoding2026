@@ -1,4 +1,4 @@
-public class Day005{
+public class Day006{
   public static void main(String[] args){
     char a = 'M';
     boolean b = false;
