@@ -28,6 +28,6 @@ public class day010{
         System.out.println("Float  : " + minFloat + " s/d " + maxFloat);
         System.out.println("Double : " + minDouble + " s/d " + maxDouble);
         System.out.println("Char   : " + (int) minChar + " s/d " + (int) maxChar);
-        System.out.println("boolean\t: true atau false");
+        System.out.println("Boolean: true atau false");
     }
 }
