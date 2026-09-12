@@ -38,5 +38,15 @@ public class Day011{
     System.out.print("Boolean: ");
     boolean i = in.nextBoolean();
     System.out.println();
+
+    System.out.println("String = " + a);
+    System.out.println("Short = " + b);
+    System.out.println("Byte = " + c);
+    System.out.println("Integer = " + d);
+    System.out.println("Long = " + e);
+    System.out.println("Double = " + f);
+    System.out.println("Float = " + g);
+    System.out.println("Char = " + h);
+    System.out.println("Boolean = " + i);
   }
 }
