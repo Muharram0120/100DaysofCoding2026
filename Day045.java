@@ -1,32 +1,25 @@
 import java.util.Scanner;
 
 
-public class Day044{
+public class Day045{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Masukkan Nilai: ");
-        double a = in.nextDouble();
-        if (a<=100 && a>=0) {
-        System.out.print("\nGrade: ");
-            if (a>85) {
-            System.out.println("A");
-            }else if (a>80) {
-                System.out.println("A-");
-            }else if (a>75) {
-                System.out.println("B+");
-            }else if (a>70) {
-                System.out.println("B");
-            }else if (a>65) {
-                System.out.println("B-");
-            }else if (a>50) {
-                System.out.println("C");
-            }else if (a>40) {
-                System.out.println("D");
-            }else{
-                System.out.println("E");
-            }
-        }else{
-            System.out.println("Masukkan Angka dengan benar");
+        System.out.print("Pilih Menu:\n1.Nasi goreng\n2.Bakso\n3.Mie Ayam\n ");
+        System.out.print("Masukkan Pilihan: ");
+        int a = in.nextInt();
+        switch(a){
+            case 1:
+                System.out.print("Nasi goreng Anda akan disiapkan ");
+                break;
+            case 2:
+                System.out.print("Bakso Anda akan disiapkan ");
+                break;
+            case 3:
+                System.out.print("Mie Ayam Anda akan disiapkan ");
+                break;
+            default:
+                System.out.print("Masukkan pilihan dengan benar");
+                break;
         }
         
     }
