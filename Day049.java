@@ -1,0 +1,6 @@
+public class Day049{
+  public static void main(String[] args){
+    int a = 49;
+    System.out.println(a%2==0 ? "genap":"ganjil");
+  }
+}
