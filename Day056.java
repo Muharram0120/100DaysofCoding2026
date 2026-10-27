@@ -9,6 +9,7 @@ public class Day056 {
         for (int i = 1; i <= n; i++) {
             System.out.print(i + " ");
         }
+        System.out.print();
         for (int i = n; i >= 1; i--) {
             System.out.print(i + " ");
         }
