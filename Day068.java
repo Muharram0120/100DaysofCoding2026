@@ -10,11 +10,12 @@ public class Day068 {
             if (i % 2 != 0) {
                 continue;
             }
+            System.out.println("Angka genap: "+i);
             if (i % M == 0) {
                 System.out.println("Target kelipatan ditemukan!");
                 break;
             }
-            System.out.println(i);
+            
         }
     }
 }
